@@ -1,4 +1,4 @@
-import {Task} from"./Task"
+import {Task} from "./Task"
 export const TASKS: Task[] = [
     {
         id: 1,
@@ -18,9 +18,10 @@ export const TASKS: Task[] = [
         day:'Mayo 5 a las 19:00',
         reminder: false
     },
+    {
     id: 3,
     text: "arreglar la bicicleta",
     day:'Mayo 8 a las 19:00',
     reminder: false
-},
+    },
 ]
